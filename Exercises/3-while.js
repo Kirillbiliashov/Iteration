@@ -5,7 +5,7 @@ const sum = (...args) => {
  let i = 0;
  while (i < args.length) {
    acc += args[i];
-   i++
+   i++;
  };
  return acc;
 };
